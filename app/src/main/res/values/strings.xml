@@ -1,0 +1,116 @@
+<resources>
+    //registro
+    <string name="app_name">REMEMBER BILLS</string>
+    <string name="titulo_1">UNETE A</string>
+    <string name="nombre_Apellido">NOMBRE Y APELLIDOS</string>
+    <string name="email">EMAIL</string>
+    <string name="conrtraseña">CONTRASEÑA</string>
+    <string name="advertencia_1">COMPLETA LOS 3 CAMPOS CORRECTAMENTE PARA REGISTRARTE.</string>
+    <string name="btn_Registrar">Registrar</string>
+    <string name="btn_Iniciar">Iniciar</string>
+
+    //inicio de sesion
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="nombre">MARCO VILLAFAÑE</string>
+    <string name="advertencia_2">OLVIDE MI CONTRASEÑA</string>
+
+    //Recuperar contraseña
+    <string name="recuperar">Recuperar Contraseña</string>
+    <string name="new_Password">Nueva Contraseña</string>
+    <string name="new_Password2">Confirmar Contraseña</string>
+
+    //Main page
+    <string name="ingresos">MIS INGRESOS</string>
+    <string name="ingresos_2">$100.000</string>
+    <string name="hist_Gastos">HISTORIAL DE GASTOS</string>
+    <string name="gasto_1">Salida a Comer</string>
+    <string name="monto_1">$2.500</string>
+    <string name="gasto_2">Pago del Internet</string>
+    <string name="monto_2">$4.500</string>
+    <string name="gasto_3">Cuota del Jardin</string>
+    <string name="monto_3">$6.500</string>
+    <string name="recordatorio">RECORDATORIOS</string>
+    <string name="pago_1">PAGO DEL GAS</string>
+    <string name="text_1">pago del gas vence el 05/06/23.</string>
+    <string name="monto_4">$6.500</string>
+    <string name="pago_2">PAGO DE LA LUZ</string>
+    <string name="text_2">la boleta de edelar vence el 10/06/23.</string>
+    <string name="monto_5">$8.750</string>
+
+    //Apartado de Gastos
+    <string name="title_1">GASTOS FIJOS</string>
+    <string name="cantidad_1">6 Gastos Fijos</string>
+
+    <string name="title_2">GASTOS PROPIOS</string>
+    <string name="cantidad_2">3 Gastos Propios</string>
+
+    <string name="title_3">GASTOS COMPARTIDOS</string>
+    <string name="cantidad_3">3 Gastos Compartidos</string>
+
+    <string name="title_4">GASTOS IMPREVISTOS</string>
+    <string name="cantidad_4">2 Gastos Imprevistos</string>
+
+    <string name="title_5">RECORDATORIOS</string>
+    <string name="cantidad_6">3 Recordatorios</string>
+
+    // Apartado de gastos fijos
+    <string name="Fecha">11/05/23</string>
+
+    <string name="gasto_Fijo1">PAGO DE LA LUZ</string>
+    <string name="monto_Fijo1">$6.500</string>
+
+    <string name="gasto_Fijo2">PAGO DEL GAS</string>
+    <string name="monto_Fijo2">$4.500</string>
+
+    <string name="gasto_Fijo3">PAGO DEL INTERNET</string>
+    <string name="monto_Fijo3">$4.000</string>
+
+    <string name="gasto_Fijo4">CUOTA DEL JARDIN</string>
+    <string name="monto_Fijo4">$5.000</string>
+
+    <string name="gasto_Fijo5">PAGO DEL AGUA</string>
+    <string name="monto_Fijo5">$3.600</string>
+
+    <string name="gasto_Fijo6">PAGO DEL ALQUILER</string>
+    <string name="monto_Fijo6">$15.000</string>
+
+    <string name="total_fijo">$38.600</string>
+    //Apartado de Gastos Propios
+
+
+    <string name="gasto_Propio1">AURICULARES</string>
+    <string name="monto_Propio1">$20.000</string>
+
+    <string name="gasto_Propio2">CHALECO</string>
+    <string name="monto_Propio2">$8.500</string>
+
+    <string name="gasto_Propio3">LIBRO</string>
+    <string name="monto_Propio3">$1.500</string>
+
+    <string name="total_propios">$30.000</string>
+
+    //Apartado de Gastos Compartidos
+    
+    <string name="gasto_Comp1">SALIDA</string>
+    <string name="desc_Comp1">LA TABA</string>
+    <string name="text_3">TOTAL</string>
+    <string name="monto_Comp1">$1.800</string>
+    <string name="moroso_1">IVONNE</string>
+    <string name="moroso_2">DEBRA</string>
+    <string name="pagado">$600</string>
+
+    <string name="total_comp">$1.800</string>
+
+
+    /Apartado de Gastos Imprevistos
+
+    <string name="gasto_Impre1">MECANICO</string>
+    <string name="monto_Impre1">$7.000</string>
+
+    <string name="gasto_Impre2">MEDICO</string>
+    <string name="monto_Impre2">$9.500</string>
+
+    <string name="total_imprevistos">$16.500</string>
+
+
+</resources>

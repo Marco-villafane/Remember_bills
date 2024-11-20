@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RememberBills" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/azul_Medio</item>
+        <item name="colorPrimaryVariant">@color/azul_Claro</item>
+        <item name="colorOnPrimary">@color/Gris</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/azul_Oscuro</item>
+        <item name="colorSecondaryVariant">@color/azul_Medio</item>
+        <item name="colorOnSecondary">@color/Blanco</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.RememberBills.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Focus.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Focus.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

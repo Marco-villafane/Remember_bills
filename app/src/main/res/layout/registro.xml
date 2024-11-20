@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="104dp"
+        android:fontFamily="@font/raleway_black"
+        android:text="@string/app_name"
+        android:textColor="@color/Gris"
+        android:textSize="38sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="@string/titulo_1"
+        android:textColor="@color/Gris"
+        android:textSize="37sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="324dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="@string/advertencia_1"
+        android:textColor="@color/Blanco"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textAllCaps="true" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="180dp"
+        android:background="@color/azul_Medio"
+        android:backgroundTint="@color/Gris"
+        android:ems="10"
+        android:fontFamily="@font/raleway_bold"
+        android:hint="@string/nombre_Apellido"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textAllCaps="true" />
+
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="248dp"
+        android:background="@color/azul_Medio"
+        android:backgroundTint="@color/Gris"
+        android:ems="10"
+        android:fontFamily="@font/raleway_bold"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="316dp"
+        android:background="@color/azul_Medio"
+        android:backgroundTint="@color/Gris"
+        android:ems="10"
+        android:fontFamily="@font/raleway_bold"
+        android:hint="@string/conrtraseña"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boton_login"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="588dp"
+        android:backgroundTint="@color/azul_Claro"
+        android:fontFamily="@font/raleway_bold"
+        android:text="@string/btn_Iniciar"
+        android:textColor="@color/Blanco"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="@color/azul_Claro"
+        android:fontFamily="@font/raleway_bold"
+        android:text="@string/btn_Registrar"
+        android:textColor="@color/Blanco"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
